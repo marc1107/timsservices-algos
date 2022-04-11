@@ -1,0 +1,21 @@
+Messungen:
+
+                                ArrayDict   HashDict	TreeDict
+
+Aufbau eines Wörterbuchs mit
+n = 8000 Einträgen              452ms       55ms		40ms
+
+Aufbau eines Wörterbuchs mit
+n ≈ 16000 Einträgen             875ms       58ms		72ms
+
+Erfolgreiche Suche 1) für
+n = 8000                        8ms         5ms  		12ms        
+
+Erfolgreiche Suche 1) für
+n ≈ 16000                       17ms        9ms			23ms
+
+Nicht erfolgreiche Suche 2)
+für n = 8000                    7ms         7ms			11ms
+
+Nicht erfolgreiche Suche 2)
+für n ≈ 16000                   10ms        11ms		20ms
